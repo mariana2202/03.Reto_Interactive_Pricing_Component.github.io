@@ -30,7 +30,7 @@ slider.addEventListener("input", function (){
     let color = `linear-gradient(90deg, hsl(174, 77%, 80%) ${x}%, hsl(224, 65%, 95%) ${x}%`;
     console.log(color);
     slider.style.background = color;
-
+    
     printPageViews ();
 });
 
